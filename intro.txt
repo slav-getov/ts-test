@@ -1,1 +1,5 @@
 This is where notes and questions will be...
+
+adding :<type> will add type checking
+
+compilerOptions - target - ESNext will compile to modern js
