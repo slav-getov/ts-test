@@ -3,3 +3,18 @@ This is where notes and questions will be...
 adding :<type> will add type checking
 
 compilerOptions - target - ESNext will compile to modern js
+outDir - whatever folder name will output js files at compilation to that folder 
+
+Union types - combination of types  -> :(number|string)
+
+interface -> like class describes objects. Create your interface and then when you use an object in a function just provide it to the arg 
+
+optional properties can be added to interfaces with propertyName?: kdjdkjwkjwkd
+
+npx nodemon examples/example.ts to continuously run ts files and output when changes happen
+
+type can create custom types to use in your code and interfaces -> type IdName = 'streamer'|'worker'
+//reinstall deps if ts-node not working npx ts-node examples/example.ts to run ts files (example)
+
+for functions -> ():type what does it return 
+Questions: do you use inferred types in your code or do you annotate everything
