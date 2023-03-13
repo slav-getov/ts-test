@@ -43,13 +43,31 @@
 // let reg: RegExp = /\S/i;
 // console.log("hey".match(reg));
 
-let singularTuple: [string, number, boolean] = ["rick", 1234, false];
+// let singularTuple: [string, number, boolean] = ["rick", 1234, false];
 
-type Guitarist = {
-  fullName: string;
-  monicker?: string;
-};
+// //type alias
+// type Guitarist = {
+//   fullName: string;
+//   monicker?: string;
+// };
 
-let evh: Guitarist = {
-  fullName: "Eddie Van Halen",
-};
+// let evh: Guitarist = {
+//   fullName: "Eddie Van Halen",
+// };
+
+// const add = (a: number, b: number): number => {
+//   return a + b;
+// };
+
+// console.log(add(2, 3));
+
+//use void for funcs with side-effects!!!
+
+// const addSeveralNumbers = (a: number, b: number, c?: number): number => {
+//   if (!c) {
+//     return a + b;
+//   }
+//   return a + b + c;
+// };
+
+// console.log(addSeveralNumbers(1, 2));

@@ -27,5 +27,26 @@
 // );
 // let nameOfPerson = "mike";
 //const myExampleObject:Worker = {name : "hired worker"}
-var reg = /\S/i;
-console.log("hey".match(reg));
+// let reg: RegExp = /\S/i;
+// console.log("hey".match(reg));
+// let singularTuple: [string, number, boolean] = ["rick", 1234, false];
+// //type alias
+// type Guitarist = {
+//   fullName: string;
+//   monicker?: string;
+// };
+// let evh: Guitarist = {
+//   fullName: "Eddie Van Halen",
+// };
+// const add = (a: number, b: number): number => {
+//   return a + b;
+// };
+// console.log(add(2, 3));
+//use void for funcs with side-effects!!!
+var addSeveralNumbers = function (a, b, c) {
+    if (!c) {
+        return a + b;
+    }
+    return a + b + c;
+};
+console.log(addSeveralNumbers(1, 2, 4));
